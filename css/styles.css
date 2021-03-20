@@ -22,6 +22,8 @@
 	background-image: url("../images/header wb-02.jpg");
     text-align: center;
 	background-size: contain;
+	background-position:100% 50%;
+	height: 250px
 }
 .mission{
 	color: rgba(227,245,222,1.00);
@@ -37,4 +39,5 @@
 .footer{
 	background-image: url("../images/footer wb-02.jpg");
 	background-size: contain;
+	height: 250px;
 }
