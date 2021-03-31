@@ -27,8 +27,8 @@
 }
 .mission{
 	color: rgba(227,245,222,1.00);
-	background-color: #6AC489;
 	text-align: center;
+	background-color: #6AC489;
 	margin-bottom: 7px;
     margin-left: 40px;
 	margin-right:  40px;
@@ -51,7 +51,16 @@
     max-width: 1100px;
 	margin: auto;	
 }
-.contact-header{ color: rgba(66,130,107,1.00);
-	
-	
+.contact-header{ 
+	color: rgba(66,130,107,1.00);
+}
+.team{
+    color: rgba(47,121,106,1.00);
+	text-align: center;
+	margin-bottom: 7px;
+    margin-left: 40px;
+	margin-right:  40px;
+	margin-top:  7px;
+	padding: 1px;
+	font-family: 'Montserrat', sans-serif;
 }
