@@ -66,8 +66,14 @@
 }
 .products{
 	 color: rgba(47,121,106,1.00);
+	 text-align: center;
 }
 .headertext{
+	text-align: center;
+	color: rgba(47,121,106,1.00);
+}
+.carousel-caption {
+	position: absolute;
 	text-align: center;
 	color: rgba(47,121,106,1.00);
 }
