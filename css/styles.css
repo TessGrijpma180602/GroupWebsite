@@ -43,12 +43,6 @@
 	color:rgba(66,130,107,1.00);
     text-align: center;	
 }
-.carousel-inner{
-	height: 100%;
-    max-height: 625px;
-    max-width: 1100px;
-	margin: auto;	
-}
 .contact-header{ 
 	color: rgba(66,130,107,1.00);
 }
@@ -71,8 +65,29 @@
 	color: rgba(47,121,106,1.00);
 	font-family: 'Montserrat', sans-serif;
 }
-.carousel-caption {
-	position:relative;
-	text-align: center;
-	color: rgba(47,121,106,1.00);
+.Test1 {
+    padding: 25px 25px 50px 25px;
+    color: rgba(47,121,106,1.00);
+    text-align: center;
+}
+
+.Test1 p{
+    text-align: center;
+    color:rgba(47,121,106,1.00);
+    font-size: 28px;
+    margin-top: 10px;
+}
+img.welcome  {
+    width: 700px;
+    height: 500px;
+}
+
+img.product  {
+    width: 300px;
+    height: 300px;
+}
+
+img.contact  {
+    width: 300px;
+    height: 300px;
 }
