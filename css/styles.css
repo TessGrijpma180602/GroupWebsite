@@ -64,3 +64,10 @@
 	padding: 1px;
 	font-family: 'Montserrat', sans-serif;
 }
+.products{
+	 color: rgba(47,121,106,1.00);
+}
+.headertext{
+	text-align: center;
+	color: rgba(47,121,106,1.00);
+}
