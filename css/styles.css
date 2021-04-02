@@ -102,4 +102,6 @@ img.contact  {
 }
 .sr-only {
 	color:rgba(47,121,106,1.00);
+}.color-contactform {
+    color: #717171;
 }
