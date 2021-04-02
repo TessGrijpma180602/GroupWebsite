@@ -97,9 +97,6 @@ img.contact  {
 	color:rgba(47,121,106,1.00);
 	width: auto;
 }
-.carousel-control-next-icon {
-	color:rgba(47,121,106,1.00);
-}
 .sr-only {
 	color:rgba(47,121,106,1.00);
 }.color-contactform {
@@ -110,8 +107,7 @@ img.contact  {
 	position: absolute !important;
 	font-size: 50px;
 }
-.d-block w-100{
-	width: 300px;
-    height: 300px;
-    border-radius: 50%
+.carousel-inner {
+	align-content: center;
+	width: 500px;
 }
