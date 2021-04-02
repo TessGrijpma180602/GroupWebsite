@@ -22,7 +22,7 @@
     text-align: center;
 	background-size: contain;
 	background-position:100% 50%;
-	height: 250px
+	height: 250px !important
 }
 .mission{
 	color:  rgba(64,148,137,1.00);
@@ -37,7 +37,7 @@
 .footer{
 	background-image: url("../images/footer wb-02.jpg");
 	background-size: contain;
-	height: 250px;
+	height: 250px !important;
 }
 .style{
 	color:rgba(66,130,107,1.00);
@@ -104,4 +104,14 @@ img.contact  {
 	color:rgba(47,121,106,1.00);
 }.color-contactform {
     color: #717171;
+}
+.carousel-caption {
+	color:rgba(47,121,106,1.00);
+	position: absolute !important;
+	font-size: 50px;
+}
+.d-block w-100{
+	width: 300px;
+    height: 300px;
+    border-radius: 50%
 }
