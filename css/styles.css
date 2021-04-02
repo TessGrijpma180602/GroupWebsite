@@ -43,8 +43,10 @@
 	color:rgba(66,130,107,1.00);
     text-align: center;	
 }
-.contact-header{ 
-	color: rgba(66,130,107,1.00);
+.contact-header{
+    color: rgba(66,130,107,1.00);
+    font-weight: bold;
+    font-size: x-large;
 }
 .team{
     color: rgba(47,121,106,1.00);
