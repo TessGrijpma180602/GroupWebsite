@@ -22,7 +22,7 @@
     text-align: center;
 	background-size: contain;
 	background-position:100% 50%;
-	height: 250px
+	height: 250px !important
 }
 .mission{
 	color:  rgba(64,148,137,1.00);
@@ -37,7 +37,7 @@
 .footer{
 	background-image: url("../images/footer wb-02.jpg");
 	background-size: contain;
-	height: 250px;
+	height: 250px !important;
 }
 .style{
 	color:rgba(66,130,107,1.00);
