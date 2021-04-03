@@ -39,11 +39,6 @@
 	padding: 1px;
 	font-family: 'Montserrat', sans-serif;
 }
-.footer{
-	background-image: url("../images/footer wb-02.jpg");
-	background-size: contain;
-	height: 250px !important;
-}
 .style{
 	color:rgba(66,130,107,1.00);
     text-align: center;	
@@ -72,18 +67,6 @@
 	color: rgba(47,121,106,1.00);
 	font-family: 'Montserrat', sans-serif;
 }
-.Test1 {
-    padding: 25px 25px 50px 25px;
-    color: rgba(47,121,106,1.00);
-    text-align: center;
-}
-
-.Test1 p{
-    text-align: center;
-    color:rgba(47,121,106,1.00);
-    font-size: 28px;
-    margin-top: 10px;
-}
 .sr-only {
 	color:rgba(47,121,106,1.00);
 }.color-contactform {
@@ -99,14 +82,14 @@
 }
 @media screen and (max-width: 600px) {
   div.carousel-caption p{
-    font-size: 5vw;
-	position:relative;  
+    font-size: 8px;
+	position:fixed;  
 	}
 }
 @media screen and (max-width: 600px) {
   div.headertext{
-    font-size: 5vw;
-	position: relative;  
+    font-size: 12px;
+	position: fixed;  
 	}
 }
 .carousel-caption p{
@@ -138,13 +121,13 @@
 }
 @media screen and (max-width: 600px) {
   div.mission p{
-    font-size: 5vw;
+    font-size: 8px;
 	position: fixed;  
 	}
 }
 @media screen and (max-width: 600px) {
   div.my-vision{
-    font-size: 5vw;
-	position:inherit;  
+    font-size: 8px;
+	position:fixed;  
 	}
 }
