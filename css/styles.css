@@ -98,8 +98,15 @@
 	font-size: 27px;
 }
 @media screen and (max-width: 600px) {
-  div.carousel-caption {
-    font-size: 12px;
+  div.carousel-caption p{
+    font-size: 5vw;
+	position: fixed;  
+	}
+}
+@media screen and (max-width: 600px) {
+  div.headertext{
+    font-size: 5vw;
+	position: fixed;  
 	}
 }
 .carousel-caption p{
