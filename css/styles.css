@@ -82,13 +82,13 @@
 }
 @media screen and (max-width: 600px) {
   div.carousel-caption p{
-    font-size: 8px;
+    font-size: 2vw;
 	position:fixed;  
 	}
 }
 @media screen and (max-width: 600px) {
   div.headertext{
-    font-size: 12px;
+    font-size: 2vw;
 	position: fixed;  
 	}
 }
@@ -121,13 +121,13 @@
 }
 @media screen and (max-width: 600px) {
   div.mission p{
-    font-size: 8px;
+    font-size: 2vw;
 	position: fixed;  
 	}
 }
 @media screen and (max-width: 600px) {
   div.my-vision{
-    font-size: 8px;
+    font-size: 2vw;
 	position:fixed;  
 	}
 }
