@@ -100,13 +100,13 @@
 @media screen and (max-width: 600px) {
   div.carousel-caption p{
     font-size: 5vw;
-	position: fixed;  
+	position:relative;  
 	}
 }
 @media screen and (max-width: 600px) {
   div.headertext{
     font-size: 5vw;
-	position: fixed;  
+	position: relative;  
 	}
 }
 .carousel-caption p{
