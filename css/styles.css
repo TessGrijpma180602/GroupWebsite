@@ -103,11 +103,16 @@ img.contact  {
     color: #717171;
 }
 .carousel-caption {
-	color:rgba(47,121,106,1.00);
-	position: absolute !important;
-	font-size: 50px;
+	position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+	color: rgba(47,121,106,1.00);
+	font-size: 36px;
 }
 .carousel-inner {
-	align-content: center;
-	width: 500px;
+	height: 100%;
+    max-height: 625px;
+    max-width: 1100px;
+	margin: auto;
 }
