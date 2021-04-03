@@ -88,7 +88,7 @@
 }
 @media screen and (max-width: 600px) {
   div.headertext{
-    font-size: 2vw;
+    	font-size: 2vw;
 	position: fixed;  
 	}
 }
@@ -96,21 +96,19 @@
 	display:flex;
 	justify-content: center;
 	position: relative;
-    left: auto;
-    right: auto;
-    bottom: auto;
+   	 left: auto;
+    	right: auto;
+    	bottom: auto;
 	color: rgba(47,121,106,1.00);
-	font-size-adjust: auto;
 	font-size: 27px;
 }
 .carousel-caption {
 	justify-content: center;
 	position: relative;
-    left: auto;
-    right: auto;
-    bottom: auto;
+    	left: auto;
+    	right: auto;
+    	bottom: auto;
 	color: rgba(47,121,106,1.00);
-	font-size-adjust: auto;
 	font-size: 27px;
 }
 .carousel-inner {
