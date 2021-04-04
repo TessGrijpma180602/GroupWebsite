@@ -41,6 +41,9 @@
     height: 500px;
     max-height: 500px;
 }
+.small-text-bold {
+    font-weight: bolder;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
