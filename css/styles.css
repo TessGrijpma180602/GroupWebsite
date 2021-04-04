@@ -18,9 +18,6 @@
 }
 .header{
 	display:flex;
-	justify-content: center;
-	width: 1900px;
-	max-height: 500px !important;
 	margin:auto !important;
 		
 }
