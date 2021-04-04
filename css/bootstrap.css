@@ -37,6 +37,10 @@
 *::after {
   box-sizing: border-box;
 }
+.wireframe-image {
+    height: 500px;
+    max-height: 500px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
