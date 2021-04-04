@@ -19,8 +19,9 @@
 .header{
 	display:flex;
 	justify-content: center;
-	width: 100%;
-	height: auto !important;
+	width: 100% !important;
+	margin:auto !important;
+	height:auto !important;
 		
 }
 .footer{
@@ -28,6 +29,7 @@
 	justify-content: center;
 	width: 100%;
 	height: auto !important;
+	margin:auto !important;
 }
 .mission{
 	color:  rgba(64,148,137,1.00);
@@ -77,37 +79,6 @@
     left: auto;
     right: auto;
     bottom: auto;
-	color: rgba(47,121,106,1.00);
-	font-size: 27px;
-}
-@media screen and (max-width: 600px) {
-  div.carousel-caption p{
-    font-size: 2vw;
-	position:fixed;  
-	}
-}
-@media screen and (max-width: 600px) {
-  div.headertext{
-    	font-size: 2vw;
-	position: fixed;  
-	}
-}
-.carousel-caption p{
-	display:flex;
-	justify-content: center;
-	position: relative;
-   	 left: auto;
-    	right: auto;
-    	bottom: auto;
-	color: rgba(47,121,106,1.00);
-	font-size: 27px;
-}
-.carousel-caption {
-	justify-content: center;
-	position: relative;
-    	left: auto;
-    	right: auto;
-    	bottom: auto;
 	color: rgba(47,121,106,1.00);
 	font-size: 27px;
 }
