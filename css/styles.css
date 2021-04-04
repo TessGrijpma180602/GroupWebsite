@@ -18,8 +18,10 @@
 }
 .header{
 	display:flex;
-	margin:auto !important;
-		
+	justify-content: center;
+	width: 100%;
+	height: auto !important;
+	margin:auto !important;	
 }
 .footer{
 	display:flex;
