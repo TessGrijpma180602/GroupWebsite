@@ -17,12 +17,17 @@
 	font-family: 'Montserrat', sans-serif;	
 }
 .header{
-	color: white;
-	background-image: url("../images/header wb-02.jpg");
-    text-align: center;
-	background-size: contain;
-	background-position:100% 50%;
-	height: 250px !important
+	display:flex;
+	justify-content: center;
+	width: 100%;
+	height: auto !important;
+		
+}
+.footer{
+	display:flex;
+	justify-content: center;
+	width: 100%;
+	height: auto !important;
 }
 .mission{
 	color:  rgba(64,148,137,1.00);
@@ -33,11 +38,6 @@
 	margin-top:  7px;
 	padding: 1px;
 	font-family: 'Montserrat', sans-serif;
-}
-.footer{
-	background-image: url("../images/footer wb-02.jpg");
-	background-size: contain;
-	height: 250px !important;
 }
 .style{
 	color:rgba(66,130,107,1.00);
@@ -67,47 +67,54 @@
 	color: rgba(47,121,106,1.00);
 	font-family: 'Montserrat', sans-serif;
 }
-.Test1 {
-    padding: 25px 25px 50px 25px;
-    color: rgba(47,121,106,1.00);
-    text-align: center;
-}
-
-.Test1 p{
-    text-align: center;
-    color:rgba(47,121,106,1.00);
-    font-size: 28px;
-    margin-top: 10px;
-}
-img.welcome  {
-    width: 700px;
-    height: 500px;
-}
-
-img.product  {
-    width: 300px;
-    height: 300px;
-}
-
-img.contact  {
-    width: 300px;
-    height: 300px;
-}
-.carousel-indicators{
-	color:rgba(47,121,106,1.00);
-	width: auto;
-}
 .sr-only {
 	color:rgba(47,121,106,1.00);
 }.color-contactform {
     color: #717171;
 }
+.carousel-caption{
+	position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+	color: rgba(47,121,106,1.00);
+	font-size: 27px;
+}
+@media screen and (max-width: 600px) {
+  div.carousel-caption p{
+    font-size: 2vw;
+	position:fixed;  
+	}
+}
+@media screen and (max-width: 600px) {
+  div.headertext{
+    	font-size: 2vw;
+	position: fixed;  
+	}
+}
+.carousel-caption p{
+	display:flex;
+	justify-content: center;
+	position: relative;
+   	 left: auto;
+    	right: auto;
+    	bottom: auto;
+	color: rgba(47,121,106,1.00);
+	font-size: 27px;
+}
 .carousel-caption {
-	color:rgba(47,121,106,1.00);
-	position: absolute !important;
-	font-size: 50px;
+	justify-content: center;
+	position: relative;
+    	left: auto;
+    	right: auto;
+    	bottom: auto;
+	color: rgba(47,121,106,1.00);
+	font-size: 27px;
 }
 .carousel-inner {
-	align-content: center;
-	width: 500px;
+	height: 100%;
+    max-height: 800px;
+    max-width: 1100px;
+	margin: auto;
 }
+
